@@ -2,6 +2,14 @@ import { ViewStyle, ImageStyle, TextStyle, StyleSheet } from "react-native";
 
 interface Style {
   container: ViewStyle;
+  leftAlignedContainer: ViewStyle;
+  leftAlignedButtonImageStyle: ImageStyle;
+  titleContainer: ViewStyle;
+  titleTextStyle: TextStyle;
+  rightAlignedContainer: ViewStyle;
+  iconButtonContainer: ViewStyle;
+  iconImageStyle: ImageStyle;
+  profileImageStyle: ImageStyle;
 }
 
 export const _container = (
@@ -21,4 +29,38 @@ export const _container = (
 
 export default StyleSheet.create<Style>({
   container: {},
+  leftAlignedContainer: {
+    marginRight: "auto",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  leftAlignedButtonImageStyle: {
+    height: 25,
+    width: 25,
+  },
+  titleContainer: {
+    marginLeft: 8,
+  },
+  titleTextStyle: {
+    fontWeight: "bold",
+  },
+  rightAlignedContainer: {
+    marginLeft: "auto",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  iconButtonContainer: {
+    marginRight: 24,
+  },
+  iconImageStyle: {
+    width: 18,
+    height: 18,
+  },
+  profileImageStyle: {
+    width: 50,
+    height: 50,
+    borderRadius: 12,
+  },
 });
