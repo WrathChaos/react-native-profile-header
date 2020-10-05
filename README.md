@@ -74,6 +74,10 @@ import ProfileHeader from "react-native-profile-header";
 - [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
 
+## Credits
+
+Heavily Inspired by [Enes Kargıcı](https://dribbble.com/shots/6530185-Beats-Mobile-App-Concept-Design), thank you so much!
+
 ## Author
 
 FreakyCoder, kurayogun@gmail.com
