@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, StatusBar, SafeAreaView } from "react-native";
 import CounterInput from "react-native-counter-input";
 import LinearGradient from "react-native-linear-gradient";
-import ProfileHeader from "./build/dist/ProfileHeader";
+import ProfileHeader from "react-native-profile-header";
 
 const coloredNotification = require("./assets/notification-colored.png");
 const notification = require("./assets/notification.png");
