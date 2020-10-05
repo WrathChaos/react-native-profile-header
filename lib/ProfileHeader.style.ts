@@ -40,9 +40,10 @@ export default StyleSheet.create<Style>({
     width: 25,
   },
   titleContainer: {
-    marginLeft: 8,
+    marginLeft: 16,
   },
   titleTextStyle: {
+    fontSize: 18,
     fontWeight: "bold",
   },
   rightAlignedContainer: {

@@ -27,12 +27,12 @@ export interface IProfileHeaderProps {
   disableSecondIcon?: boolean;
   disableThirdIcon?: boolean;
   disableLeftAlignedButton?: boolean;
-  leftAlignedButtonImageSource?: any;
   leftButtonComponent?: React.ReactChild;
   profileImageSource?: ISource;
   firstIconImageSource?: ISource;
   secondIconImageSource?: ISource;
   thirdIconImageSource?: ISource;
+  leftAlignedButtonImageSource?: ISource;
   onLeftButtonPress?: () => void;
   onProfilePicPress?: () => void;
   onFirstIconPress?: () => void;
