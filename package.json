@@ -1,6 +1,6 @@
 {
   "name": "react-native-profile-header",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Customizable Profile Header wih cool icons for React Native",
   "main": "./build/dist/ProfileHeader.js",
   "repository": "git@github.com:WrathChaos/react-native-profile-header.git",
