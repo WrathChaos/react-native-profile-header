@@ -68,6 +68,7 @@ import ProfileHeader from "react-native-profile-header";
 | disableThirdIcon             |  boolean  |   false   | disable the third icon                                                                  |
 | disableLeftAlignedButton     |  boolean  |   false   | disable the left aligned icon                                                           |
 | ImageComponent               | component |   Image   | set your own Image component instead of default react native Image such as; `FastImage` |
+| style                        |   style   |  default  | set or override your own style instead of default one                                   |
 
 ## Future Plans
 

@@ -19,6 +19,7 @@ export interface ISource {
 }
 
 export interface IProfileHeaderProps {
+  style?: any;
   titleText?: string;
   ImageComponent?: any;
   height?: number | string;
@@ -184,9 +185,9 @@ export default class ProfileHeader extends React.PureComponent<
     );
   };
   render() {
-    const { height = 50, backgroundColor = "#fff" } = this.props;
+    const { style, height = 50, backgroundColor = "#fff" } = this.props;
     return (
-      <View style={_container(height, backgroundColor)}>
+      <View style={[_container(height, backgroundColor), style]}>
         {this.renderLeftAlignedComponent()}
         {this.renderRightAlignedComponent()}
       </View>
